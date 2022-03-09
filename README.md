@@ -35,4 +35,5 @@ Please use the following test input file with the following flags. Successful ru
 
 
 ## TODO
-complete `codegen.ml` to create the LLVM.
+- complete `codegen.ml` to create the LLVM.
+- clean `semant.ml`. Three main sections essentially repeat code.
