@@ -21,13 +21,18 @@ Math statement given by:
 > `make toplevel.native`
 
 ## Run
-Please use the following test file with the following flags. Successful run with output the expressions. 
+Please use the following test input file with the following flags. Successful run with output the expressions. 
 
+*run with no arguments*
+> `./toplevel.native`
+
+*prints the ast*
 > `./toplevel.native -a test-maths.arith`
 
+*outputs type checked sast*
 > `./toplevel.native -s test-maths.arith`
 
-*outputs type checked sast*
+
 
 ## TODO
 complete `codegen.ml` to create the LLVM.
