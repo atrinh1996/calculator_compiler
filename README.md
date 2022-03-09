@@ -7,8 +7,11 @@ simple arithmetic, assignment, and operates on int and float types.
 Math statement given by:
 
 > 3 + 5;
+>
 > a = 3.5F;
+>
 > b = 10;
+>
 > c = 5 * b;
 
 *each expression must have semicolon at end.*
@@ -23,4 +26,5 @@ Please use the following test file with the following flags. Successful run with
 > `./toplevel.native -a test-maths.arith`
 
 > `./toplevel.native -s test-maths.arith`
+
 *outputs type checked sast*
